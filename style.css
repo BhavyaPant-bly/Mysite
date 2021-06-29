@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root {
+    --primary-color:#F9A8D4;
+    --sec-color:#1F2937;
+    --ter-color:white;
+}
+hr{
+    margin: 1.5rem 0rem;
+}
+h1{
+    margin: 0px;
+}
+body {
+
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+}
+p{
+    font-size: larger;
+}
+/** container **/
+.container{
+    padding: 0rem 1rem;
+}
+.container-center {
+    max-width :600px;
+    margin: auto
+}
+
+/* link */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--ter-color);
+}
+.link-active
+{
+    color:var(--sec-color);
+    /* font-weight: bolder; */
+    /* font-size: larger; */
+}
+
+.primary-link{
+    background-color: #EC4899;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.primary-link:hover{
+    background-color: #BE185D;
+}
+.secondary-link{
+    color: #EC4899;
+    border-radius: 0.5rem;
+    border:1px solid  #EC4899;
+}
+.secondary-link:hover{
+    color: #BE185D;
+    border-color:  #BE185D;
+}
+
+
+/* look into BEM naming convention for CSS */
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem
+}
+.list-reverse-order{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius:0.5rem;
+    padding:2.5rem 3rem;
+    color: var(--ter-color);
+      /* outline: 0;   */
+     /* display: block;  */
+     color:var(--sec-color);
+     
+    
+}
+.navigation div a:hover {
+    color: var(--sec-color);    
+}
+
+.navigation div{
+    text-align: right;
+    padding-top: 2rem;
+    font-size: 90%;     
+}
+
+.navigation span{
+    font-size:110%;
+    /* text-decoration:underline; */
+    
+}
+
+/*header*/
+header {
+    text-align: center;
+    color:#6B7280;
+    padding: 4rem;
+}
+.hl{
+    color:#BE185D;
+    /* text-decoration: underline; */
+}
+img {
+    
+    max-width: 50%;                             /*I have to see this */
+    height: auto;
+    text-align: center;
+    padding-top:3rem;
+  }
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+  }
+
+  /*section */
+section{
+
+   text-align: center;
+   /* border:1px solid var(--ter-color);                 /*I have to see this */
+       /* border-width: 0.5re;m 26rem */ 
+   padding-left:8rem ;
+   padding-right: 8rem;
+   padding-top: 1rem;
+   padding-bottom: 4rem;
+
+}
+.section_1{
+    background-color: #FECACA;
+    
+}
+.section_2
+{
+    background-color:var(--ter-color);
+}
+
+/* footer */
+.footer{
+    text-align: center ;
+    padding-bottom: 10rem;
+    color:var(--ter-color);
+    background-color:var(--sec-color);
+    padding-top: 2rem;
+    font-size: 150%;
+    /* border-top-left-radius: 0.5rem; */
+    /* border-top-right-radius:0.5rem; */
+}
+.footer a:hover{
+      /* font-weight: bolder;  */
+    color:cadetblue
+}
+.space-bottom{
+    padding-bottom:10rem;
+}
+.space-top{
+    padding-top:8rem
+}
+.large-font{
+    font-size:200%;
+}
