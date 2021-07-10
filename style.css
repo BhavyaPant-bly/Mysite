@@ -83,9 +83,7 @@ p{
     color: var(--ter-color);
       /* outline: 0;   */
      /* display: block;  */
-     color:var(--sec-color);
-     
-    
+     color:var(--sec-color);  
 }
 .navigation div a:hover {
     color: var(--sec-color);    
