@@ -170,3 +170,38 @@ section{
 .large-font{
     font-size:200%;
 }
+@media screen and (max-width:600px){
+    .navigation{
+        padding:2rem 1.5rem; 
+    }
+    .navigation div{
+        text-align: center;
+        font-size: 70%;     
+    }
+    .navigation span{
+        font-size:90%;
+
+        
+    }
+    .link {
+        padding: 0.5rem 0.5rem;
+    }
+
+    section{ 
+        padding-left:2rem ;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+     
+     }
+    
+     .large-font{
+        font-size:140%;
+    }
+    .space-bottom{
+        padding-bottom:7rem;
+    }
+    .space-top{
+        padding-top:4rem
+    }
+    
+}
