@@ -172,6 +172,7 @@ section{
 }
 @media screen and (max-width:600px){
     .navigation{
+        
         padding:2rem 1.5rem; 
     }
     .navigation div{
@@ -179,6 +180,7 @@ section{
         font-size: 65%;     
     }
     .navigation span{
+        text-align: center;
         font-size:90%;
 
         
@@ -201,7 +203,7 @@ section{
         padding-bottom:7rem;
     }
     .space-top{
-        padding-top:1.5rem
+        padding-top:4rem
     }
     
 }
