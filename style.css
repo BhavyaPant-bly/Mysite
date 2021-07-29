@@ -68,13 +68,14 @@ p{
 }
 .list-item-inline{
     display: inline;
-    padding: 0rem 1rem
 }
 .list-reverse-order{
     display: flex;
     flex-direction: column-reverse;
 }
-
+ul{
+    padding:0rem;
+}
 /* navigation */
 .navigation{
     background-color: var(--primary-color);
