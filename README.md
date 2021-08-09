@@ -1,1 +1,1 @@
-I am Bhavya Pant, currently doing Bsc honors in Physics. I love coding and Physics. This site showcases my porfolio. 
+This is an HTML,CSS website published using netlify which showcases My Portfolio. 
