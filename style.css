@@ -207,5 +207,12 @@ section{
     .space-top{
         padding-top:4rem
     }
+    img {
+    
+        max-width: 150%;                             /*I have to see this */
+        height: 180px;
+        text-align: center;
+        padding-top:3rem;
+      }
     
 }
