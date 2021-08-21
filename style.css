@@ -175,7 +175,7 @@ section{
 @media screen and (max-width:800px){
     .navigation{
         
-        padding:2rem 1rem; 
+        padding:2rem 0.5rem; 
     }
     .navigation div{
         /* text-align: center; */
