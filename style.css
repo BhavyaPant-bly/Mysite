@@ -196,9 +196,11 @@ section{
         padding-left:2rem ;
         padding-right: 2rem;
         padding-bottom: 2rem;
-        border-radius: 0rem;
-     
      }
+    .section_1{
+        border-radius: 0rem;
+        
+    }
     
      .large-font{
         font-size:140%;
