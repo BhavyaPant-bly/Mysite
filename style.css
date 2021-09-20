@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 :root {
-    --primary-color:#F9A8D4;
-    --sec-color:#1F2937;
+    --primary-color:#ee8334;
+    /* #F2AA4CFF; */
+    --sec-color:#101820FF;
     --ter-color:white;
 }
 /* texts */
@@ -41,22 +42,22 @@ p{
     /* font-size: larger; */
 }
 
-.primary-link{
-    background-color: #EC4899;
+.link-primary{
+    background-color: #a52a2a;
     border-radius: 0.5rem;
     cursor: pointer;
 }
-.primary-link:hover{
-    background-color: #BE185D;
+.link-primary:hover{
+    background-color:#571616;
 }
-.secondary-link{
-    color: #EC4899;
+.link-secondary{
+    color: #ee5533;
     border-radius: 0.5rem;
-    border:1px solid  #EC4899;
+    border:1px solid  #ee5533;
 }
-.secondary-link:hover{
-    color: #BE185D;
-    border-color:  #BE185D;
+.link-secondary:hover{
+    color: #b02c0f;
+    border-color:  #b02c0f;
 }
 
 
@@ -110,7 +111,7 @@ header {
     padding: 4rem;
 }
 .hl{
-    color:#BE185D;
+    color:#9f270d
     /* text-decoration: underline; */
 }
 img {
@@ -140,7 +141,8 @@ section{
 
 }
 .section_1{
-    background-color: #FECACA;
+    background-color: #ffcfac;
+    border-radius: 1rem;
     
 }
 .section_2
